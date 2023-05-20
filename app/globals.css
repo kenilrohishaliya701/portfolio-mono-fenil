@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, transparent, rgb(black)) rgb(black);
+  overflow-x: hidden;
+}
+
+.text-brand {
+  @apply text-[#F93700];
+}
+
+.my-svg-text {
+  fill: none;
+  stroke: white;
+  stroke-width: 0.7px;
+  stroke-linejoin: round;
+}
+.hero-bg {
+  background-image: url("/bg.png");
+  background-size: cover;
+}
+
+.my-svg {
+  font: bold 30px Century Montserrat, sans-serif;
+}
+
+
